@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Shopping Cart</h1>
+
+    <section class="products">
+      <h2>Products</h2>
+      <button onclick="addItem('Sunglasses', 700)">Add Sunglasses (₹700)</button>
+      <button onclick="addItem('Perfume', 500)">Add Perfume (₹500)</button>
+    </section>
+
+    <section class="cart">
+      <h2>Your Cart</h2>
+      <ul id="cartItems"></ul>
+      <p id="totalAmount">Total: ₹0</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
